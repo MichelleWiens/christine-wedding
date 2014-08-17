@@ -10,7 +10,6 @@ body{
 	font-size:13px;
 	line-height:20px;
 	padding-top:48px;
-	background:#ddd url('../img/back.png') repeat;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -66,24 +65,24 @@ hr{
 	text-align:center;
 	font-family: 'Droid Serif', serif;
 	font-size:30px;
-	color:444;
+	color:#444;
 }
 
 .wedding .well a{
-	color:#D32020;
+	color:#05157A;
 	text-decoration:none;
 }
 
 .wedding .well a:hover{
-	color:#cb1e08;;
+	color:#05157A;;
 }
 
 
 /* Navigation */
 
 .navbar{
-	background:#0F1E6B;
-	border-color: #0F1E6B;
+	background:#FFFFFF;
+	border-color: #FFFFFF;
 }
 
 .navbar .navbar-header .navbar-toggle span.menu{
@@ -92,7 +91,7 @@ hr{
 
 .navbar .navbar-header a.navbar-brand{
 	font-family: 'Lobster Two', cursive;
-	color:#fff;
+	color:#05157A;
 	font-size:22px;
 	padding-top:15px;
 	padding-bottom:15px;
@@ -100,7 +99,7 @@ hr{
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #D32020;
+	border-color: #ffffff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -108,7 +107,7 @@ hr{
 }
 
 .navbar-toggle{
-	background:#cb1e08;
+	background:#F1C6DB;
 }
 
 .navbar-toggle:hover{
@@ -129,10 +128,13 @@ hr{
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #fff;
-	background:#514C86
-;	
+	color: #F1C6DB;
 }
+
+.nav > li {
+	color: #05157A;
+}
+
 
 /* Main */
 
@@ -141,6 +143,7 @@ hr{
 	padding-top:40px;
 	padding-bottom:40px;
 	border-bottom:1px solid #444;
+	min-height: 400px;
 }
 
 .main .main-invite{
@@ -218,6 +221,7 @@ hr{
 	text-align:center;
 	line-height:60px;
 	color:#fff;
+
 }
 
 .main .main-date .date span.month{
@@ -228,6 +232,11 @@ hr{
 .main .main-date .date span.year{
 	font-size:55px;
 	line-height:67px;
+}
+
+.date-small{
+	text-align:center;
+	font-size:20px;
 }
 
 /* About */
@@ -270,7 +279,7 @@ hr{
 
 .about .love i{
 	font-size:130px;
-	color:#e9331b;
+	color:#F1C6DB;
 }
 
 .about .love h3{
@@ -333,7 +342,7 @@ hr{
 
 .rsvp i{
 	font-size:120px;
-	color:#e9331b;
+	color:#F1C6DB;
 }
 
 .rsvp .well{
@@ -385,7 +394,7 @@ hr{
 	bottom: 0px;
 	right: 0px;
 	z-index: 104400;
-	background: #fa3031;
+	background: #F1C6DB;
 }
 
 .totop a, .totop a:visited, .totop a:hover{
